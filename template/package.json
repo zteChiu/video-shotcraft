@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "remotion studio src/index.ts",
     "render": "remotion render src/index.ts AiflPromo out/promo.mp4",
+    "render:openai": "remotion render src/index.ts OpenAIFifteen out/openai-fifteen.mp4",
     "still": "remotion still src/index.ts AiflPromo"
   },
   "dependencies": {
