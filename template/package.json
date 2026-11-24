@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "remotion studio src/index.ts",
     "render": "remotion render src/index.ts AiflPromo out/promo.mp4",
+    "render:deepseek": "remotion render src/index.ts DeepSeekFifteen out/deepseek-fifteen.mp4",
     "still": "remotion still src/index.ts AiflPromo"
   },
   "dependencies": {
