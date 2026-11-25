@@ -1,4 +1,6 @@
 node_modules/
+videos/ferrari/out/
+videos/ferrari/public/audio/*.mp3
 out/qa/
 template/out/
 # 发帖用社交封面图等本地素材，不进 skill 安装包
