@@ -1,0 +1,21 @@
+{
+  "name": "tokyo-not-too-hot",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Lyric film for 东京不太热. The song file in public/audio is local and gitignored.",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts TokyoNotTooHot out/tokyo-not-too-hot.mp4",
+    "still": "remotion still src/index.ts TokyoNotTooHot"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.484",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "remotion": "4.0.484"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.17",
+    "typescript": "5.9.3"
+  }
+}
