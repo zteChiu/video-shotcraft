@@ -1,0 +1,21 @@
+{
+  "name": "wedding-blessing",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts WeddingBlessing out/wedding.mp4 --concurrency=2",
+    "render:nobgm": "remotion render src/index.ts WeddingBlessing out/wedding-nobgm.mp4 --props=props-nobgm.json --concurrency=2",
+    "still": "remotion still src/index.ts WeddingBlessing"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.484",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "remotion": "4.0.484"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.17",
+    "typescript": "6.0.3"
+  }
+}
